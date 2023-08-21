@@ -1,0 +1,163 @@
+*
+.navbar{
+	position: absolute;
+	right: 45px;
+	top: 45px;
+	display: flex;
+}
+
+.logo-container {
+  width: 100px;
+  height: 90px;
+  background-image: url("file:///C:/Users/user/OneDrive/Desktop/t_emblemy1.github.io/Screenshot%202023-07-25%20230015.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+	left: 0px;
+	top: 0px;
+	display: flex;
+}
+
+.navbar li{
+	list-style: none;
+	margin: 0 40px;
+	display: inline-block;
+	font-size: 20px;
+	font-weight: bold;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.logo{
+	position: absolute;
+	left: 150px;
+	top: 45px;
+	font-style: italic;
+	font-weight: 30px;
+	color: #B9770E;
+	font-size: 25px;
+
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("file:///C:/Users/user/OneDrive/Desktop/t_emblemy1.github.io/original-27257a7db863c5faa12ee855104c4c3f.jpg");
+  height: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  top: 130px;
+}
+
+.hero-text {
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 350px;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+
+.position{
+	position:relative;
+	top:150px;
+}
+
+.columns {
+  position: relative;
+  width: 30%;
+  padding: 8px;
+  top: 150px;
+}
+
+.price {
+  list-style-type: none;
+  border: 1px solid  #C11B17;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  
+}
+
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header {
+  background-color:  #C11B17;
+  color: white;
+  font-size: 25px;
+}
+
+.price li {
+  border-bottom: 1px solid #C11B17;
+  padding: 20px;
+  text-align: center;
+  background-color:FFFFF0;
+  color: black;
+}
+
+.price .grey {
+  background-color:  FFFFF0;
+  font-size: 20px;
+}
+
+.button {
+  background-color: #D2691E;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.vip{
+	position: absolute;
+  left: 550px;
+position: relative;
+  width: 30%;
+  padding: 8px;
+  top: -300px;
+}
+
+.premium{
+position: absolute;
+  left: 1100px;
+position: relative;
+  width: 30%;
+  padding: 8px;
+  top: -750px;
+}
+
+  .position2{
+	position:relative;
+	bottom: 730px;
+}
+
+#prices {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#prices td, #prices th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+#prices tr:nth-child(even){background-color: #f2f2f2;}
+
+#prices tr:hover {background-color: #ddd;}
+
+#prices th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #04AA6D;
+  color: white;
+}

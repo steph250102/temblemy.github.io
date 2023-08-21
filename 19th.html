@@ -1,0 +1,300 @@
+<html>
+<head>
+<link rel="stylesheet" href="file:///C:/Users/user/OneDrive/Desktop/t_emblemy1.github.io/style_19th.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+.checked {
+  color: orange;
+}
+</style>
+</head>
+<body>
+<div class="slideshow-container">
+ <div class="header">
+  <a href="#default" class="logo"><i>T-Emblemy</i></a>
+  <div class="header-right">
+    <a class="active" href="file:///C:/Users/user/OneDrive/Desktop/t_emblemy1.github.io/index.html">Home &ensp;&ensp;&ensp;</a>
+    <a href="file:///C:/Users/user/OneDrive/Desktop/t_emblemy1.github.io/book1.html">Book&ensp;&ensp;&ensp;</a>
+   <a href="file:///C:/Users/user/OneDrive/Desktop/t_emblemy1.github.io/19th.html">19th century&ensp;&ensp;&ensp;</a>
+	<a href="file:///C:/Users/user/OneDrive/Desktop/t_emblemy1.github.io/delivery.html">Delivery&ensp;&ensp;&ensp;</a>
+	<a href="file:///C:/Users/user/OneDrive/Desktop/t_emblemy1.github.io/contact_us.html">Contact us</a>
+  </div>
+<br><br>
+
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="file:///C:/Users/user/OneDrive/Desktop/t_emblemy1.github.io/00aa0a1630c3063eac43463cd0381379.jpg" width="100%" height="60%">
+   </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="file:///C:/Users/user/OneDrive/Desktop/t_emblemy1.github.io/anno-1800-1800s-digital-art-concept-art-ship-hd-wallpaper-preview.jpg" width="100%" height="60%">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="file:///C:/Users/user/OneDrive/Desktop/t_emblemy1.github.io/OIP%20(1).jpeg" width="100%" height="60%">
+  </div>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+</div>
+</div>
+<br><br>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <center><img src="file:///C:/Users/user/OneDrive/Desktop/t_emblemy1.github.io/jane-eyre.jpg" alt="Jane" width="300px" height="300px"></center>
+      <div class="container">
+	    <h2>Jane Eyre</h2>
+        <p class="title">Written by: Charlotte Bronte
+		<br>Fisrt publish on: 1847<br>Price: $37.89</p>
+        <p>Victorian novel with its realistic portrayal of the inner life of a woman, noting her struggles with her natural desires and social condition.</p>
+		Rating: &ensp;
+   <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+        <p><button class="button">Buy</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <center><img src="file:///C:/Users/user/OneDrive/Desktop/t_emblemy1.github.io/41qNt+dfjKL.jpg" alt="Franky" width="300px" height="300px"></center>
+      <div class="container">
+        <h2>Frankenstein</h2>
+        <p class="title">Written by: Mary Shelley
+		<br>Fisrt publish on: 1818<br>Price: $26.50</p>
+        <p> Frankenstein tells the story of Victor Frankenstein, a young scientist who created life and was horrified by what he had made, a sapient creature in an unorthodox scientific experiment.</p>
+	   Rating: &ensp;
+   <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+		<p><button class="button">Buy</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <center><img src="file:///C:/Users/user/OneDrive/Desktop/t_emblemy1.github.io/f5f8a6e3ed583a74d51970426373910b.jpg" alt="Myths" width="300px" height="300px"></center>
+      <div class="container">
+       <h2>The Myths of Greece and Rome</h2>
+        <p class="title">Written by: H.A. Guerber Courier
+		<br>Fisrt publish on: 1893<br>Price: $34.69</p>
+        <p>A classic itself, long prized for its simple, retelling of the principal myths of Greece and Rome,and for its commentary on their origins and their significance.</p>
+	   Rating: &ensp;
+   <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+        <p><button class="button">Buy</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<br><br>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <center><img src="file:///C:/Users/user/OneDrive/Desktop/t_emblemy1.github.io/pride-and-prejudice-1946.jpg" alt="book5" width="300px" height="300px"></center>
+      <div class="container">
+	    <h2>Pride and Prejudice</h2>
+        <p class="title">Written by: Jane Austen
+		<br>Fisrt publish on: 1889<br><p>Price: $38.38</p>
+        <p>The romantic clash between the opinionated Elizabeth and her proud beau, Mr. Darcy, is a splendid performance of civilized sparring.</p><br>
+		Rating: &ensp;
+   <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+        <p><button class="button">Buy</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <center><img src="file:///C:/Users/user/OneDrive/Desktop/t_emblemy1.github.io/OC_LIND_REXROTH_BF_001.jpg" alt="book6" width="300px" height="300px"></center>
+      <div class="container">
+        <h2>American Poetry in the Twenties Centuries</h2>
+        <p class="title">Written by: Kenneth Rexroth
+		<br>Fisrt publish on: jan 1,1971<br>Price: $41.79</p>
+        <p>One of America's leading poets and critics offers a major interpretation of the poetry and poets of modern America, from the radical bohemians.</p><br>
+	   Rating: &ensp;
+   <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star "></span>
+<span class="fa fa-star "></span>
+<span class="fa fa-star"></span>
+		<p><button class="button">Buy</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <center><img src="file:///C:/Users/user/OneDrive/Desktop/t_emblemy1.github.io/9780415825122.jpg" alt="book7" width="300px" height="300px"></center>
+      <div class="container">
+       <h2>The Road to Freedom</h2>
+        <p class="title">Written by: Catherine Clinton
+		<br>Fisrt publish on: 1990<br>Price: $38.97</p>
+        <p> Biography of one of the most courageous women in American history "reveals Harriet Tubman to be even more remarkable than her legend.</p><br>
+		Rating: &ensp;
+   <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+        <p><button class="button">Buy</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<br><br>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <center><img src="file:///C:/Users/user/OneDrive/Desktop/t_emblemy1.github.io/Long-Lost-Friend-1.jpg" width="300px" height="300px"></center>
+      <div class="container">
+	    <h2>Long Lost Friend</h2>
+        <p class="title">Written by: J.George Hohman
+		Edited by: Daniel Harms
+		<br>Fisrt publish on: 1820<br>Price: $46.99</p>
+        <p>The Long-Lost Friend draws from the traditional folk magic of Pennsylvania Dutch customs and pow-wow healers.</p><br>
+	   Rating: &ensp;
+   <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star "></span>
+<span class="fa fa-star "></span>
+<span class="fa fa-star "></span>
+        <p><button class="button">Buy</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <center><img src="file:///C:/Users/user/OneDrive/Desktop/t_emblemy1.github.io/81KH7WJpvAL._AC_UF1000,1000_QL80_.jpg" alt="book8" width="300px" height="300px"></center>
+      <div class="container">
+        <h2>Dracula</h2>
+        <p class="title">Written by: Bram Stoker
+		<br>Fisrt publish on: 1897<br>Price: $28.96</p>
+        <p>Jonathan Harker taking a business trip to stay at the castle of a Transylvanian nobleman, Count Dracula.</p><br>
+		Rating: &ensp;
+   <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+		<p><button class="button">Buy</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <center><img src="file:///C:/Users/user/OneDrive/Desktop/t_emblemy1.github.io/main-qimg-a377401cdfdfbddb444074eb27262c88-lq.jpeg" alt="book9" width="300px" height="300px"></center>
+      <div class="container">
+       <h2>The Transformation of the World</h2>
+        <p class="title">Written by: Jurgen Osterhammel
+		<br>Fisrt publish on: 1990<br>Price: $25.89</p>
+        <p>A monumental history of the nineteenth century, The Transformation of the World offers a panoramic and multifaceted portrait of a world in transition.</p>
+		Rating: &ensp;
+   <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+        <p><button class="button">Buy</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
